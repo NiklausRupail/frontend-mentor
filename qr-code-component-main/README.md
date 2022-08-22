@@ -22,7 +22,8 @@ That was a trivial task, but I wanted to see how this site works and how fast I 
 
 ### Links
 
-- Solution URL: [https://github.com/NiklausRupail/frontend-mentor/tree/main/qr-code-component-main](https://github.com/NiklausRupail/frontend-mentor/tree/main/qr-code-component-main)
+- Solution URL: [qr-code-component](https://github.com/NiklausRupail/frontend-mentor/tree/main/qr-code-component-main)
+- Live Site URL: [Hosted by Netlify](https://6303eeca188fa6022b4c4c10--niklaus-rupail.netlify.app/)
 
 ## My process
 
