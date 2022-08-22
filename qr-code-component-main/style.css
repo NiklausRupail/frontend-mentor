@@ -2,12 +2,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: "Outfit", sans-serif;
-    background: hsl(212, 45%, 89%);
-}
-img {
-    border-radius: 9px;
+    background: #d6e2f0;
 }
 span {
     font-size:  1.35rem;
     line-height: 1.75rem;
+}
+#breakline {
+    content: "";
+    display: block;
+    margin-top: 10px;
 }
