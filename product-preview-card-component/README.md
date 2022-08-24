@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Product Preview Component](https://github.com/NiklausRupail/frontend-mentor/tree/main/product-preview-card-component)
-
+- Live URL: [Netlify](https://genuine-kulfi-4d2810.netlify.app/)
 ## My process
 
 ### Built with
