@@ -27,7 +27,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot-d.jpg)
-![](./screenshot-m.jpg)
 
 ### Links
 
@@ -59,6 +58,8 @@ Using Font Awesome
 Thinking in big picture when creating classes to speed up development process both for mobile and desktop
 
 ## Mobile Screenshot
+
+![](./screenshot-m.jpg)
 
 ## Author
 
