@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | NFT preview card component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+    :root {
+      --border-radius-px: 15px;
+    }
+
+    body {
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-family: "Outfit", sans-serif;
+        font-size: 18px;
+        color: white;
+        background: hsl(217, 54%, 11%);
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p {
+        color: hsl(215, 51%, 70%);
+    }
+
+    .card {
+        background: hsl(216, 50%, 16%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        max-width: 350px;
+        padding: 1rem 0.5rem;
+        padding-bottom: 0;
+        border-radius: var(--border-radius-px);
+    }
+
+    .equilibrium {
+        border-radius: var(--border-radius-px);
+        margin: 0.5rem;
+        position: relative;
+        cursor: pointer;
+        overflow: hidden; 
+        width: calc(100% - 32px);
+        height: auto;
+    }
+    .eq-img {
+        background-image: url("images/image-equilibrium.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 100%;
+        min-height: 18.75rem;
+        width: 100%;
+    }
+    .cover {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        min-height: 18.75rem;
+        height: auto;
+        background-image: none;
+    }
+    .cover:hover {
+        background-image: url("images/icon-view.svg");
+        background-color: hsl(178, 100%, 50%);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 20% 20%;
+        opacity: 0.5;
+        transition: background-color ease-in-out 0.3s;
+    }
+    h1 {
+      margin: 0;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    h1:hover {
+      color: hsl(178, 100%, 50%);
+      transition: color ease-in-out 0.3s;
+    }
+    .text {
+        margin: 1rem;
+    }
+
+    .icon-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .icon-text>p,
+    img {
+        display: flex;
+    }
+
+    .line {
+      height: 1px;
+      background: hsl(215, 32%, 27%);
+      margin-bottom: 10px;
+    }
+
+    span {
+        color: white;
+    }
+    span:hover {
+      color: hsl(178, 100%, 50%);
+      transition: color ease-in-out 0.3s;
+    }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <div class="equilibrium">
+            <div class="eq-img"></div>
+            <div class="cover"></div>
+            </div>
+            <div class="text">
+                <h1>Equilibrium #3429</h1>
+                <p style="line-height: 30px; font-weight: 300; margin-bottom: 0;">Our Equilibrium collection promotes balance and calm.</p>
+                <div class="icon-text">
+                    <p style="color: hsl(178, 100%, 50%); font-weight: 700;"><img src="./images/icon-ethereum.svg" width="13" alt="Ethereum Icon" style="margin-right: 4px;">0.041 ETH</p>
+                    <p><img src="./images/icon-clock.svg" width="20x19" alt="Clock Icon" style="margin-right: 4px;">3 days left</p>
+                </div>
+                <div class="line">
+                  
+                </div>
+                <div class="icon-text" style="justify-content: flex-start;">
+                    <img src="./images/image-avatar.png" alt="Picture of Jules Wyvern" width="35x35" style="border: 1px solid white; border-radius: 100%; margin: 0 1rem ;">
+                    <p>Creation of<span>Jules Wyvern</span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
