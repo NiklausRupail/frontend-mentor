@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](./)
+- Live Site URL: [Netlify](https://whimsical-begonia-eba5da.netlify.app/)
 
 ## My process
 
@@ -39,9 +39,4 @@ Users should be able to:
 - [css-tricks](https://css-tricks.com/video-screencasts/195-how-to-draw-a-line-with-css/) - How to draw the line between author and the NFT
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-
-
+- Frontend Mentor - [@Me](https://www.frontendmentor.io/profile/NiklausRupail)
