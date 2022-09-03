@@ -27,7 +27,9 @@ img {
 p {
     font-family: "Lexend Deca", sans-serif;
     max-width: 230px;
+    color: hsl(0, 0%, 90%);
     display: inherit;
+    line-height: 24px;
 }
 
 h1 {
