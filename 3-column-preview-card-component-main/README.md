@@ -16,5 +16,5 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](./)
+- Live Site URL: [Netlify](https://capable-lily-0f39c2.netlify.app/)
