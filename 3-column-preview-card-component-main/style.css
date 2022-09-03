@@ -46,7 +46,7 @@ button {
     margin-top: 2rem;
 }
 
-.cards {
+main {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -117,7 +117,7 @@ article {
 }
 
 @media all and (min-width: 935px) {
-    .cards {
+    main {
         flex-direction: row;
         height: 100vh;
         margin: 0;
