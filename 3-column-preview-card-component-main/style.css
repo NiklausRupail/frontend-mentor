@@ -33,16 +33,16 @@ p {
 }
 
 h1 {
-    font-family: "Big Shoulder Display", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     display: inherit;
 }
 h2 {
-    font-family: "Big Shoulder Display", sans-serif;
+    font-family: "Big Shoulders Display", cursive;
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     display: inherit;
 }
