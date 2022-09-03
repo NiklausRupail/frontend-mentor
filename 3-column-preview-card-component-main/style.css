@@ -123,14 +123,14 @@ button {
         margin: 0;
     }
 
-    .card-lux {
+    .card-lux !important{
         border-bottom-left-radius: 0;
         border-bottom-right-radius: var(--radius);
         border-top-right-radius: var(--radius);
 
     }
 
-    .card-sedan {
+    .card-sedan !important{
         border-top-right-radius: 0;
         border-bottom-left-radius: var(--radius);
         border-top-left-radius: var(--radius);
