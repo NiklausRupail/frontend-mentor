@@ -4,6 +4,9 @@
     	--radius: 20px;
     }
     body {
+	-webkit-font-smoothing: antialiased;
+    	-moz-osx-font-smoothing: grayscale;
+    	text-rendering: optimizeLegibility;
         font-family: "Red Hat Display", sans-serif;
         background: url("./images/pattern-background-mobile.svg") no-repeat top center;
         background-color: #e0e8ff;
