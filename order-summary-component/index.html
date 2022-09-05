@@ -2,36 +2,96 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Order summary card</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+	@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+	
+	body {
+	font-family: "Red Hat Display", sans-serif;
+	/*background: url("../img/pattern-background-desktop.svg") no-repeat top center;*/
+	background-size: contain;
+	background: url("./images/pattern-background-mobile.svg") no-repeat top center;
+	background-color: #e0e8ff;
+	margin: 0;
+	 padding: 0 1.5rem;
+	}
+	main {
+	
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+	.card {
+	background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 360px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	}
+	.heroimg {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	}
+	p, h1{text-align: center;}
+	p {
+	max-width: 17rem;
+	line-height: 1.5rem;
+	}
+	.info {
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-end;
+		flex-direction: row;
+		
+	}
+	.price{
+		display:flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.price-text {
+		display: flex;
+		margin: 0;
+		}
+		.icon {
+		display: flex;
+		}
+	.change {
+		display: flex;
+	}
   </style>
 </head>
 <body>
+<main>
+  <section class="card">
+  <img class="heroimg" src="./images/illustration-hero.svg" width="360" alt="Header Image"/>
+  <h1>Order Summary</h1>
 
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!</p>
+	
+  <section class="info">
+  <img class="icon" src="./images/icon-music.svg" alt="Music Icon"/>
+  <div class="price">
+  <p class="price-text">Annual Plan</p>
+  <p class="price-text">$59.99/year</p>
   </div>
+  <div class="change">
+  Change
+  </div>
+  </section>
+  <button>Proceed to Payment</button>
+  <button>Cancel Order</button>
+  </section>
+ </main>
 </body>
 </html>
