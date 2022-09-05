@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Git](./)
+- Solution URL: [GitHub](./)
 - Live Site URL: [Netlify](https://silly-torrone-3af7fb.netlify.app/)
 
 ## My process
