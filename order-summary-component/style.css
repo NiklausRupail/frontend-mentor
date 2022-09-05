@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+    :root {
+    	--radius: 20px;
+    }
+    body {
+        font-family: "Red Hat Display", sans-serif;
+        background: url("./images/pattern-background-mobile.svg") no-repeat top center;
+        background-color: #e0e8ff;
+        margin: 0;
+        padding: 0 1.5rem;
+    }
+
+    main {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        background: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 360px;
+        border-radius: var(--radius);
+        padding-bottom: 2rem;
+    }
+
+    .heroimg {
+        border-top-left-radius: var(--radius);
+        border-top-right-radius: var(--radius);
+    }
+
+    p,
+    h1 {
+        text-align: center;
+    }
+    h1 {
+    	margin-top: 2rem;
+    	margin-bottom: 1.5rem;
+    }
+
+    p {
+        max-width: 17rem;
+        line-height: 1.5rem;
+        color: hsl(0, 0%, 50%);
+        margin-top: 0;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        background: hsl(225, 100%, 98%);
+        padding: 1rem 1rem;
+        border-radius: 10px;
+    }
+
+    .price {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 23px;
+    }
+
+    .price-text {
+        display: flex;
+        margin: 0;
+    }
+
+    .icon {
+        display: flex;
+    }
+
+    .change {
+        display: flex;
+        align-self: center;
+        margin-left: 1rem;
+        font-weight: 700;
+    }
+
+    .bottom {
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        background: #1E1FCD;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 1rem 4.2rem;
+        font-weight: 900;
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .cancel {
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 900;
+        color: hsl(0, 0%, 70%);
+    }
+    @media only screen and (min-width: 1024px) {
+    	body {
+				background: url("./images/pattern-background-desktop.svg") no-repeat top center;
+				background-color: #e0e8ff;
+    	}
+    	p {
+    		max-width: 20rem;
+    	}
+    } 
