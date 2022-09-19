@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Interactive rating component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+    :root {
+      --white: hsl(0, 0%, 100%);
+      --l-gray: hsl(217, 12%, 63%);
+      --gray: hsl(216, 12%, 54%);
+      --blue: hsl(213, 19%, 18%);
+      --d-blue: hsl(216, 12%, 8%);
+    }
+    body {
+      font-family: "Overpass", sans-serif;
+      height: 100vh;
+      width: 100%;
+      background: var(--d-blue);
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+    }
+    main {
+      padding: 2rem;
+      margin: 2rem;
+      min-width: 278px;
+      max-width: 330px;
+      background: #1F2630;
+      gap: 0.5rem;
+      border-radius: 20px;
+    }
+    article {
+      display: flex;
+      flex-direction: column;
+    }
+    #rating-state > img {
+      border: solid 10px #262F38;
+      border-radius: 100%;
+      background: #262F38;
+    }
+    button {
+      color: white;
+      border: none;
+      background: hsl(25, 97%, 53%);
+      border-radius: 300px;
+      padding: 1rem;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .rating {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+    h1 {
+      color: var(--white);
+      margin-bottom: 0;
+    }
+    h2 {
+      color: var(--white);
+      margin-bottom: 0;
+    }
+    p {
+      color: var(--l-gray);
+      font-size: 15px;
+      line-height: 1.5rem;
+    }
+    .rating > button {
+      border-radius: 100%;
+      background: #262F38;
+      padding: 1rem 1.25rem;
+    }
+    .rating > button:hover {
+      background: var(--l-gray);
+      transition: all 0.5s ease-out;
+    }
+    #thankyou-state {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    #thankyou-state > p {
+      text-align: center;
+    }
+   #selected {
+      width: 185px;
+      border: solid 3px #262F38;
+      border-radius: 20px;
+      color: hsl(25, 97%, 53%);
+      background: #262F38;
+      line-height: 1.5rem;
+
+}
+    
+  </style>
+    <script defer type="text/javascript" src="./index.js"></script>
+</head>
+
+<body>
+    <main>
+        <article id="rating-state">
+            <!-- Rating state start -->
+            <img src="./images/icon-star.svg" width="25">
+            <h1>How did we do?</h1>
+            <p>Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!</p>
+            <section class="rating">
+                <button id="1" onclick="Rate(1)">1</button>
+                <button id="2" onclick="Rate(2)">2</button>
+                <button id="3" onclick="Rate(3)">3</button>
+                <button id="4" onclick="Rate(4)">4</button>
+                <button id="5" onclick="Rate(5)">5</button>
+            </section>
+            <button id="submit" onclick="Sub()">Submit</button>
+        </article>
+        <!-- Rating state end -->
+        <!-- Thank you state start -->
+        <article id="thankyou-state" style="display: none;">
+            <img src="./images/illustration-thank-you.svg">
+            <p id="selected"></p>
+            <h2>Thank you!</h2>
+            <p>We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!</p>
+        </article>
+        <!-- Thank you state end -->
+    </main>
+</body>
+
+</html>
