@@ -1,4 +1,4 @@
-function Sub() {  
+function sub() {  
 
     if(currentRate===0) return undefined;  
     document.getElementById("rating-state").style.display="none";
@@ -6,10 +6,10 @@ function Sub() {
     document.getElementById("thankyou-state").style.display="flex";
 };
 let currentRate=0;
-function Rate(rating) {
+function rate(rating) {
     
     currentRate = rating;
-    for (var i = 1; i <= 5; i++) 
+    for (let i = 1; i <= 5; i++) 
     {
         let btn = document.getElementById(i);
         
