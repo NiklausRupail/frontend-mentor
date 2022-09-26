@@ -7,24 +7,24 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <title>Frontend Mentor | Interactive rating component</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <script defer type="text/javascript" src="./index.js"></script>
+    <script defer src="./index.js"></script>
 </head>
 
 <body>
     <main>
         <article id="rating-state">
             <!-- Rating state start -->
-            <img src="./images/icon-star.svg" width="25">
+            <img src="./images/icon-star.svg" alt="Star Icon" width="25">
             <h1>How did we do?</h1>
             <p>Please let us know how we did with your support request. All feedback is appreciated
                 to help us improve our offering!</p>
-            <section class="rating">
+            <div class="rating">
                 <button id="1" onclick="rate(1)">1</button>
                 <button id="2" onclick="rate(2)">2</button>
                 <button id="3" onclick="rate(3)">3</button>
                 <button id="4" onclick="rate(4)">4</button>
                 <button id="5" onclick="rate(5)">5</button>
-            </section>
+            </div>
             <button id="submit" onclick="sub()">Submit</button>
         </article>
         <!-- Rating state end -->
