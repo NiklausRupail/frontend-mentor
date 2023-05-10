@@ -40,5 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Codewars - [@NiklausRupail](https://www.codewars.com/NiklausRupail)
+- Codewars - [@NiklausRupail](https://www.codewars.com/users/NiklausRupail)
 - Frontend Mentor - [@NiklausRupail](https://www.frontendmentor.io/profile/NiklausRupail)
